@@ -1,0 +1,5 @@
+My_List=["apple","banana","cherry","date"]
+Slice= My_List.Append("elderberry")
+Sliced_List=(Slice(2:4))
+print("My_List")
+print("Sliced_List")
