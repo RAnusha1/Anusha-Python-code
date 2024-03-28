@@ -1,0 +1,6 @@
+original_tupple=('10','20','30','40','50')
+converted_tupple=list(original_tupple)
+print(converted_tupple)
+
+tupple_new=int(converted_tupple)
+print("tupple_new")
