@@ -1,0 +1,13 @@
+1. Create a list containing the lengths of words from a given 
+sentence.
+2. Create a dictionary where keys are words from the given 
+sentence, and values are their lengths.
+# Given sentence
+sentence = "Python list and dictionary comprehension are powerful tools
+
+
+sentence='python list and dictionary comprehension are powerful tools'
+length=[(len(word))for word in sentence .split()]
+print("length:",length)
+new_dict={word:len(word)for word in sentence .split()}
+print("new dict:",new_dict)
